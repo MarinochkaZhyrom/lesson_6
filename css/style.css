@@ -1,0 +1,188 @@
+
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	font-family: 'Ribeye', cursive;
+	background-color: rgb(2, 2, 2);
+	
+
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+
+}
+
+.header {
+	margin: 0 20px;
+	background: rgba(196, 196, 196, 0.4);
+	border-radius: 0 0 15px 150px;
+	padding: 24px 40px 50px 70px;
+	border: 2px solid rgba(254, 255, 254, 0.459);
+	border-top: none;
+	box-shadow: -5px 7px 26px rgb(247, 247, 247), inset -25px -25px 40px rgba(9, 14, 9, 0.712);
+
+}
+.title {
+	text-align: center;
+	font-size: 48px;
+	line-height: 1.4;
+	color: #2bb419;
+	text-shadow: 5px 5px 5px #000, 8px 8px 10px rgba(223, 226, 34, 0.699);
+
+}
+.title-text {
+	opacity: 0.8;
+	max-width: 75%;
+	margin-top: 58px;
+	font-size: 36px;
+	line-height: 1.4;
+	color: #ffffff;
+	text-shadow: 4px 5px 8px rgb(0, 0, 0);
+}
+
+.img {
+	display: block;
+	margin: -55px 20px 0 auto;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	box-shadow: 8px -8px 15px #D4EF17, 8px 8px 15px rgb(247, 247, 245), -8px -8px 15px rgb(7, 230, 81), -8px 8px 15px rgb(255, 119, 8) ;
+
+}
+
+.sub-title {
+	display: inline-block;
+	font-size: 35px;
+	line-height: 1.4;
+	color: #D4EF17;
+	text-transform: uppercase;
+	text-shadow: 3px 5px 7px #000;
+
+	margin: 50px 15% 0;
+
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 30px;
+	padding: 15px 25px;
+	box-shadow: 3px 3px 15px rgb(232, 233, 227), inset 6px 6px 10px #FFFFFF;
+}
+
+.cards {
+	
+
+}
+.card-1 {
+
+	max-width: 47%;
+	margin: 59px 19px 55px 10px;
+	padding: 50px 15px 40px 29px;
+	background: rgba(196, 196, 196, 0.4);
+	box-shadow: 5px 10px 16px #D4EF17, inset 9px 16px 30px rgb(226, 228, 223);
+	border-radius: 5px 50px;
+
+	font-size: 24px;
+	text-align: center;
+	line-height: 1.4;
+	text-shadow: 2px 2px 7px #000;
+	color: #FFFFFF;
+}
+.card-2 {
+
+	max-width: 47%;
+	margin: -140px 20px 0 auto;
+	padding: 40px 25px 43px 30px;
+	background: rgba(196, 196, 196, 0.4);
+	box-shadow: 5px 5px 16px #D4EF17, -3px -3px 20px #F3FBD7, inset 14px -16px 25px rgba(143, 243, 173, 0.61);
+	border: 1px solid rgb(255, 253, 253);
+	border-radius: 10% 15%;
+
+	font-size: 24px;
+	text-shadow: 5px 2px 7px rgb(3, 3, 3);
+	line-height: 1.4;
+	color: #FFFFFF;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.text {
+	margin-top: 60px;
+	font-size: 24px;
+	line-height: 1.4;
+	color: rgb(241, 236, 236);
+	text-shadow: 3px 2px 5px rgba(18, 19, 17, 0.897);
+}
+
+.text-1 {
+	max-width: 80%;
+	margin: 20px 20px 0;
+	padding: 26px 50px;
+	border-radius: 30px 70px;
+	background-color: rgba(196, 196, 196, 0.4);
+	text-align: justify;
+	border: 1px solid #31361d;
+	box-shadow: inset 15px -17px 10px #171811, inset -12px 12px 15px #a8a8a5;
+}
+.text-2 {
+	max-width: 70%;
+	margin: 50px 25px 0 auto;
+	padding: 15px 30px;
+	border-radius: 40px 0 30px 0;
+	outline: 3px solid rgb(252, 252, 252);
+	text-shadow: -5px 5px 3px rgb(96, 133, 61);
+	background-color: rgba(196, 196, 196, 0.4);
+	box-shadow: 6px 6px 5px #ffffff, 12px 12px 5px #e2390f , 16px 16px 5px #17ef3b;
+}
+.text-3 {
+
+	border-radius: 10px 70px 180px 45px;
+	max-width: 80%;
+	margin: 85px 0 0 35px;
+	padding: 35px 50px 20px 30px;
+	background-color: rgba(196, 196, 196, 0.4);
+	outline: 14px double #2c2e27; 
+	box-shadow: 10px 10px 40px #D4EF17, -10px -10px 30px #e2e4d8, inset 15px -13px 50px rgba(223, 226, 210, 0.801);
+}
+
+.text-4 {
+	max-width: 40%;
+	height: 250px;
+	margin: 65px 10px 0 auto;
+	padding: 25px;
+	background-color: rgba(196, 196, 196, 0.4);
+	overflow: auto;
+	border: 5px dotted #D4EF17;
+	outline: 4px solid #e2e4d8;
+	border-right: none;
+	border-radius: 40px 0 0 50px;
+}
+
+
+.span {
+	color: #17ef3b;
+	text-shadow: 3px 3px 5px rgb(255, 175, 3);
+}
+
+.span-2 {
+	opacity: 0.5;
+	color: #b5ef17;
+	text-decoration: line-through;
+}
+.span-3 {
+	color: #17ef3b;
+	text-decoration: overline;
+	opacity: 0.4; 
+	text-shadow: 4px 4px 7px rgb(255, 255, 255);
+}
+
+.logo-icon {
+	margin: 60px 10% 20px;
+	background-color: #17ef3b;
+	border-radius: 5px;
+	outline: 3px solid #F3FBD7;
+	box-shadow: 3px 3px 8px #F3FBD7;
+}
